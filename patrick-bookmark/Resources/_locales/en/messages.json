@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Patrick Bookmark Star",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Shows a filled star when the current page is in your Safari bookmarks.",
+        "description": "Description of what the extension does."
+    }
+}

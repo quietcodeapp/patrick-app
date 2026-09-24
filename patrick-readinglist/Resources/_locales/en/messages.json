@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Patrick Readling List",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Shows a filled book when the current page is in your Safari Reading List.",
+        "description": "Description of what the extension does."
+    }
+}

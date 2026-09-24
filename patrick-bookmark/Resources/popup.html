@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <script type="module" src="popup.js"></script>
+</head>
+<body>
+    <main>
+        <p id="status" class="status" hidden></p>
+        <p id="hint" class="hint" hidden></p>
+
+        <label for="folder-select" class="folder-label">Change folder</label>
+        <select id="folder-select" class="folder-select" disabled>
+            <option value="">Loading folders…</option>
+        </select>
+
+        <button id="primary-action" class="primary-btn" hidden disabled>Add</button>
+
+    </main>
+</body>
+</html>

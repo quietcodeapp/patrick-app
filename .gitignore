@@ -1,0 +1,22 @@
+# xcode
+.derivedData
+.build
+build
+
+# editor
+.vscode
+
+# macOS
+.DS_Store
+
+# local / release
+xcuserdata/
+buildServer.json
+dist/
+*.dmg
+
+# Assistant
+AGENTS.md
+
+# scripts
+scripts
