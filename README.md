@@ -2,7 +2,7 @@
   <img src="AppIcon.png" width="128" alt="Patrick app icon">
 </p>
 
-# Patrick: The Bookmark Star for Safari
+# Patrick: The Star for Safari Bookmark
 
  Safari extensions for macOS that add a <b>pink star</b> for bookmarks and a <b>yellow book</b> for the Reading List.
 
