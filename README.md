@@ -4,10 +4,9 @@
 
 # Patrick: The Star for Safari Bookmark
 
- Safari extensions for macOS that add a <b>pink star</b> for bookmarks and a <b>yellow book</b> for the Reading List.
+Safari extensions for macOS that add a <b>pink star</b> for bookmarks and a <b>yellow book</b> for the Reading List.
 
-
-[Download]() | Developed by[QuietCode](https://quietcode.app)
+[Realease](https://github.com/quietcodeapp/patrick-app/releases) | Developed by [QuietCode](https://quietcode.app)
 
 ![](screenshot1.png)
 
@@ -26,11 +25,11 @@ You can quit Patrick after connecting. Adding and removing happens inside the ex
 
 ## How it works
 
-Safari has no public API for adding bookmarks, so Patrick merges leaf entries into and out of `~/Library/Safari/Bookmarks.plist` (hence Full Disk Access).
+Safari has no public API for adding bookmarks, so Patrick merges bookmark/reading list into and out of `~/Library/Safari/Bookmarks.plist` (hence Full Disk Access).
 
 ## Known limitations
 
-- Safari's sidebar or Favorites UI may not refresh immediately; restarting Safari fixes it.
+- Safari's sidebar or Favorites UI may not refresh immediately.
 
 ## License
 
