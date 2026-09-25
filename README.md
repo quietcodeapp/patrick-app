@@ -1,6 +1,13 @@
-# Patrick - The Bookmark Star for Safari
+<p align="center">
+  <img src="AppIcon.png" width="128" alt="Patrick app icon">
+</p>
 
-Safari extensions for macOS that add a **pink star** for bookmarks and a **yellow book** for the Reading List.
+# Patrick: The Bookmark Star for Safari
+
+ Safari extensions for macOS that add a <b>pink star</b> for bookmarks and a <b>yellow book</b> for the Reading List.
+
+
+[Download]() | Developed by[QuietCode](https://quietcode.app)
 
 ![](screenshot1.png)
 
@@ -17,17 +24,6 @@ Get the latest `Patrick-x.y.dmg` from the [Releases](../../releases/latest) page
 
 You can quit Patrick after connecting. Adding and removing happens inside the extensions.
 
-## What it does
-
-
-|                                    | Star (Bookmark)                   | Book (Reading List) |
-| ---------------------------------- | --------------------------------- | ------------------- |
-| Shows if the current page is saved | Yes (filled icon)                 | Yes                 |
-| Add                                | Pick a folder in the popup → Add | Click to toggle     |
-| Remove                             | Popup → Remove                   | Click to toggle     |
-| Move to another folder             | Popup dropdown (when saved)       | —                  |
-| Filled icon color                  | `#e67e7c`                         | `#f0d04e`           |
-
 ## How it works
 
 Safari has no public API for adding bookmarks, so Patrick merges leaf entries into and out of `~/Library/Safari/Bookmarks.plist` (hence Full Disk Access).
@@ -35,7 +31,6 @@ Safari has no public API for adding bookmarks, so Patrick merges leaf entries in
 ## Known limitations
 
 - Safari's sidebar or Favorites UI may not refresh immediately; restarting Safari fixes it.
-
 
 ## License
 
