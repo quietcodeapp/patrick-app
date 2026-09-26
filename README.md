@@ -12,7 +12,20 @@ Safari extensions for macOS that add a <b>pink star</b> for bookmarks and a <b>y
 
 ![](screenshot2.png)
 
-## Download
+You can quit Patrick after connecting. Adding and removing happens inside the extensions.
+
+## Why Patrick
+
+Click the star, and the page is in your real Safari bookmarks. Click it again to change folder or remove it. The star shows whether the current page is already bookmarked, including bookmarks you added in Safari itself.
+
+| | Patrick | Other similar apps |
+|---|---|---|
+| Star shows if a page is bookmarked | ✅ | ✅ |
+| Click the star to add or remove | ✅ | ❌ shows folders only |
+| Reading List button | ✅ | ❌ |
+| Where to get it | GitHub (free) | App Store |
+
+## Install
 
 Get the latest `Patrick-x.y.dmg` from the [Releases](../../releases/latest) page. It is signed and notarized.
 
@@ -21,15 +34,13 @@ Get the latest `Patrick-x.y.dmg` from the [Releases](../../releases/latest) page
 3. In Patrick, click **Connect Safari**.
 4. In Safari → Settings → Extensions, enable both Patrick extensions.
 
-You can quit Patrick after connecting. Adding and removing happens inside the extensions.
-
 ## How it works
 
 Safari has no public API for adding bookmarks, so Patrick merges bookmark/reading list into and out of `~/Library/Safari/Bookmarks.plist` (hence Full Disk Access).
 
 ## Known limitations
 
-- Safari's sidebar or Favorites UI may not refresh immediately.
+- Safari's bookmark manager or Favorites UI may not refresh immediately if added bookmark through the extension.
 
 ## License
 
