@@ -1,38 +1,22 @@
-<p align="center">
-  <img src="AppIcon.png" width="128" alt="Patrick app icon">
-</p>
+![My inspiration](patrick-the-star.jpg)
 
-# Patrick: The Star for Safari Bookmark
+# Patrick: a Chrome like bookmark star for Safari
 
-Safari extensions for macOS that add a <b>pink star</b> for bookmarks and a <b>yellow book</b> for the Reading List.
+![Patrick the star and the yellow square](/images/safari-bookmark-star.png)
 
 [Realease](https://github.com/quietcodeapp/patrick-app/releases) | Developed by [QuietCode](https://quietcode.app)
 
-![](screenshot1.png)
+You know the Chrome star? Safari on the Mac has nothing like it.
 
-![](screenshot2.png)
+Patrick is a free Safari extension that adds a bookmark button that works just like Chrome's. I also added a similar button for Safari's Reading List.
 
-You can quit Patrick after connecting. Adding and removing happens inside the extensions.
+## Compared with other extensions
 
-## Why Patrick
-
-Click the star, and the page is in your real Safari bookmarks. Click it again to change folder or remove it. The star shows whether the current page is already bookmarked, including bookmarks you added in Safari itself.
-
-| | Patrick | Other similar apps |
-|---|---|---|
-| Star shows if a page is bookmarked | ✅ | ✅ |
-| Click the star to add or remove | ✅ | ❌ shows folders only |
-| Reading List button | ✅ | ❌ |
-| Where to get it | GitHub (free) | App Store |
+Some similar extensions can show whether a page is bookmarked, but the app sandbox stops them from writing to Safari's bookmarks, so they are only an indicator, not an interactive button.
 
 ## Install
 
 Get the latest `Patrick-x.y.dmg` from the [Releases](../../releases/latest) page. It is signed and notarized.
-
-1. Open the DMG and drag **Patrick** to Applications.
-2. Open Patrick and turn on **Full Disk Access** for it in System Settings → Privacy & Security.
-3. In Patrick, click **Connect Safari**.
-4. In Safari → Settings → Extensions, enable both Patrick extensions.
 
 ## How it works
 
