@@ -1,14 +1,12 @@
-![My inspiration](patrick-the-star.jpg)
-
 # Patrick: a Chrome like bookmark star for Safari
 
-![](screenshot1.png)
-
-[Realease](https://github.com/quietcodeapp/patrick-app/releases) | Developed by [QuietCode](https://quietcode.app)
+![](safari-bookmark-star.png)
 
 You know the Chrome star? Safari on the Mac has nothing like it.
 
 Patrick is a free Safari extension that adds a bookmark button that works just like Chrome's. I also added a similar button for Safari's Reading List.
+
+[Realease](https://github.com/quietcodeapp/patrick-app/releases) | Developed by [QuietCode](https://quietcode.app)
 
 ## Compared with other extensions
 
@@ -25,6 +23,10 @@ Safari has no public API for adding bookmarks, so Patrick merges bookmark/readin
 ## Known limitations
 
 - Safari's bookmark manager or Favorites UI may not refresh immediately if added bookmark through the extension.
+
+## My inspiration
+
+![My inspiration](patrick-the-star.jpg)
 
 ## License
 
