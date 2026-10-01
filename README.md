@@ -2,7 +2,7 @@
 
 # Patrick: a Chrome like bookmark star for Safari
 
-![Patrick the star and the yellow square](/images/safari-bookmark-star.png)
+![](screenshot1.png)
 
 [Realease](https://github.com/quietcodeapp/patrick-app/releases) | Developed by [QuietCode](https://quietcode.app)
 
